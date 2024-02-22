@@ -1,0 +1,47 @@
+{
+    "name": "main",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "serve": "webpack-dev-server --config webpack.dev.config.js --env.mode development --watch --profile",
+        "build": "webpack --config webpack.prod.config.js --env.mode production"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.12.9",
+        "@babel/plugin-transform-runtime": "^7.12.1",
+        "@babel/preset-env": "^7.12.7",
+        "@vue/compiler-sfc": "^3.0.11",
+        "babel-loader": "^8.2.2",
+        "babel-plugin-import": "^1.13.3",
+        "clean-webpack-plugin": "^3.0.0",
+        "copy-webpack-plugin": "^8.1.1",
+        "css-loader": "^5.0.1",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^4.5.1",
+        "image-webpack-loader": "^7.0.1",
+        "mini-css-extract-plugin": "^1.6.0",
+        "sass": "^1.37.5",
+        "sass-loader": "^11.1.1",
+        "style-loader": "^2.0.0",
+        "url-loader": "^4.1.1",
+        "vue-loader": "^16.0.0-rc.1",
+        "webpack": "^5.6.0",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.2",
+        "axios": "^0.20.0"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.12.5",
+        "ant-design-vue": "^2.1.4",
+        "cross-env": "^7.0.3",
+        "serve": "^11.3.2",
+        "vue": "^3.0.11",
+        "vue-router": "^4.0.8",
+        "vuex": "^4.0.0"
+    }
+}
